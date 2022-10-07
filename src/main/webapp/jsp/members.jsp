@@ -20,7 +20,7 @@
         <th>id</th>
         <th>username</th>
         <th>age</th>
-      </thead>
+      </thead> 
   <tbody>
   <%
       for (Member member : members) {
