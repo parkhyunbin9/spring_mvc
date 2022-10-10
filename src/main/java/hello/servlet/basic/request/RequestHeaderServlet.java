@@ -43,8 +43,8 @@ public class RequestHeaderServlet extends HttpServlet {
             System.out.println(headerName + " : " + headerName);
         }
 */
-        request.getHeaderNames().asIterator()
-                .forEachRemaining(headerName -> System.out.println(headerName + " : " + headerName));
+//        request.getHeaderNames().asIterator()
+//                .forEachRemaining(headerName -> System.out.println(headerName + " : " + headerName));
 
 
         System.out.println("--- Headers - end ---");
@@ -60,8 +60,8 @@ public class RequestHeaderServlet extends HttpServlet {
         System.out.println("request.getServerPort() = " +request.getServerPort()); //Host 헤더
         System.out.println();
 
-        System.out.println("[Accept-Language 편의 조회]"); request.getLocales().asIterator()
-                .forEachRemaining(locale -> System.out.println("locale = " + locale));
+//        System.out.println("[Accept-Language 편의 조회]"); request.getLocales().asIterator()
+//                .forEachRemaining(locale -> System.out.println("locale = " + locale));
         System.out.println("request.getLocale() = " + request.getLocale());
         System.out.println();
 
